@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia API Preview</title>
+    <style>
+        /* Styles for the pop-up */
+        #popup {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+            max-width: 300px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Link that will show the summary when the mouse hovers over it -->
+<a href="https://en.wikipedia.org/wiki/Canada" id="wikipedia-link">See information about Canada</a>
+
+<!-- The pop-up will be shown here -->
+<div id="popup"></div>
+
+<!-- Link to the JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
